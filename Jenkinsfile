@@ -28,7 +28,7 @@ pipeline {
         stage('Download Dependencies'){
             steps{
                 dir('terraform'){
-                    downloadDependencies(
+                    ownloadDependencies(
                             directory: ".dependencies",
                             repository:"gh-org-data-platform/terraform-aws-gh-dp-glue",
                             account:"${env.ACCOUNT_NAME}",
