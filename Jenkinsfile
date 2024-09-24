@@ -32,7 +32,7 @@ pipeline {
                             directory: ".dependencies",
                             repository:"gh-org-data-platform/terraform-aws-gh-dp-glue",
                             account:"${env.ACCOUNT_NAME}",
-                            branch: "v1.56.0"
+                            branch: "v1.56.0f"
                     )
                 }
             }
